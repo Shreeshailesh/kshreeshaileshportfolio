@@ -40,8 +40,8 @@ const skills = [
 const experiences = [
   { icon: Bike, title: "Motorcycle Touring", img: expMoto, tag: "Royal Enfield Himalayan 411",
     points: ["Long-distance touring", "Route planning", "Budget management", "Trip logistics"] },
-  { icon: Waves, title: "Surfing", img: expSurf, tag: "3-day surf camp in Mulki",
-    points: ["Community experience", "Adventure activities", "Teamwork & discipline", "Coastal exploration"] },
+  { icon: Mountain, title: "Adventure & Exploration", img: expAdventure, tag: "Mountains, viewpoints, road trips, nature",
+    points: ["Mountain exploration", "Scenic viewpoints", "Road trip adventures", "Nature immersion", "Hidden destinations", "Outdoor experiences", "Forest and coastal routes", "Travel storytelling"] },
   { icon: Compass, title: "Solo Travel", img: expSolo, tag: "Independent journeys",
     points: ["Hostel culture", "Local exploration", "Storytelling", "Self-discovery"] },
   { icon: Users, title: "Group Travel", img: expGroup, tag: "Coordinating friends & groups",
@@ -53,7 +53,7 @@ const gallery = [
   { src: galGokarna, title: "Gokarna Coast", meta: "Beach trek · Sunset" },
   { src: galMountains, title: "Mountain Explorations", meta: "Himalayan rides" },
   { src: galHostel, title: "Community Gatherings", meta: "Hostel rooftops · Bengaluru" },
-  { src: expSurf, title: "Mulki Surfing", meta: "Karnataka coast" },
+  { src: expAdventure, title: "Mountain Exploration", meta: "Western Ghats · Karnataka" },
   { src: expGroup, title: "Bonfire Nights", meta: "Stories & strangers" },
 ];
 
