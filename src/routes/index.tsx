@@ -5,7 +5,8 @@ import {
   ArrowRight, ArrowUpRight, Calendar, Camera, Heart, Sparkles
 } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
-import heroImg from "@/assets/hero-mountains.jpg";
+import heroAsset from "@/assets/hero-shailesh.png.asset.json";
+const heroImg = heroAsset.url;
 import portraitImg from "@/assets/portrait.jpg";
 import expMoto from "@/assets/exp-motorcycle.jpg";
 import expSurf from "@/assets/exp-surfing.jpg";
