@@ -11,7 +11,7 @@ import portraitAsset from "@/assets/portrait-shailesh.jpg.asset.json";
 const portraitImg = portraitAsset.url;
 import expMotoAsset from "@/assets/exp-motorcycle-shailesh.jpg.asset.json";
 const expMoto = expMotoAsset.url;
-import expSurf from "@/assets/exp-surfing.jpg";
+import expAdventure from "@/assets/exp-adventure.jpg";
 import expSolo from "@/assets/exp-solo.jpg";
 import expGroup from "@/assets/exp-group.jpg";
 import galOoty from "@/assets/gal-ooty.jpg";
