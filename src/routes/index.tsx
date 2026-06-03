@@ -42,13 +42,13 @@ const skills = [
 
 const experiences = [
   { icon: Bike, title: "Motorcycle Touring", img: expMoto, tag: "Royal Enfield Himalayan 411",
-    points: ["Long-distance touring", "Route planning", "Budget management", "Trip logistics"] },
+    points: ["Long-distance touring", "Route planning", "Budget management", "Trip logistics"], imagePosition: "object-center" },
   { icon: Mountain, title: "Adventure & Exploration", img: expAdventure, tag: "Mountains, viewpoints, road trips, nature",
-    points: ["Mountain exploration", "Scenic viewpoints", "Road trip adventures", "Nature immersion", "Hidden destinations", "Outdoor experiences", "Forest and coastal routes", "Travel storytelling"] },
+    points: ["Mountain exploration", "Scenic viewpoints", "Road trip adventures", "Nature immersion", "Hidden destinations", "Outdoor experiences", "Forest and coastal routes", "Travel storytelling"], imagePosition: "object-center" },
   { icon: Compass, title: "Solo Travel", img: expSolo, tag: "Independent journeys",
-    points: ["Hostel culture", "Local exploration", "Storytelling", "Self-discovery"] },
+    points: ["Hostel culture", "Local exploration", "Storytelling", "Self-discovery"], imagePosition: "object-center" },
   { icon: Users, title: "Group Travel", img: expGroup, tag: "Coordinating friends & groups",
-    points: ["Managing schedules", "Handling logistics", "Memorable experiences", "Group dynamics"] },
+    points: ["Managing schedules", "Handling logistics", "Memorable experiences", "Group dynamics"], imagePosition: "object-[center_24%]" },
 ];
 
 const gallery = [
@@ -226,7 +226,7 @@ function Home() {
               <article key={e.title} className="group relative overflow-hidden rounded-sm bg-background reveal">
                 <div className="aspect-[4/5] overflow-hidden">
                   <img src={e.img} alt={e.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition duration-1000"
+                    className={`w-full h-full object-cover ${e.imagePosition} group-hover:scale-105 transition duration-1000`}
                     loading="lazy" width={1024} height={1280} />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
