@@ -15,7 +15,7 @@ import expAdventureAsset from "@/assets/exp-adventure-shailesh.jpg.asset.json";
 const expAdventure = expAdventureAsset.url;
 import expSoloAsset from "@/assets/exp-solo-shailesh-v2.jpg.asset.json";
 const expSolo = expSoloAsset.url;
-import expGroupAsset from "@/assets/exp-group-shailesh.jpg.asset.json";
+import expGroupAsset from "@/assets/exp-group-shailesh-v2.jpg.asset.json";
 const expGroup = expGroupAsset.url;
 import galOoty from "@/assets/gal-ooty.jpg";
 import galGokarna from "@/assets/gal-gokarna.jpg";
