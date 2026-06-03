@@ -393,7 +393,7 @@ function Home() {
             The road is open. <em className="not-italic gradient-text-ember">Let's ride.</em>
           </h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 reveal">
-            <a href="https://instagram.com/_shailesh_katharki" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.instagram.com/_shailesh_katharki/" target="_blank" rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-full text-sm uppercase tracking-[0.2em] hover:bg-accent hover:text-accent-foreground transition">
               <Instagram className="w-4 h-4" />
               @_shailesh_katharki
