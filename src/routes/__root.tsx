@@ -80,6 +80,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "K Shree Shailesh — Trip Captain & Adventure Traveler" },
       { name: "description", content: "Adventure traveler, rider and trip captain from Bengaluru creating experiences that people remember for life." },
       { property: "og:type", content: "website" },
+      { property: "og:title", content: "K Shree Shailesh — Trip Captain & Adventure Traveler" },
+      { name: "twitter:title", content: "K Shree Shailesh — Trip Captain & Adventure Traveler" },
+      { property: "og:description", content: "Adventure traveler, rider and trip captain from Bengaluru creating experiences that people remember for life." },
+      { name: "twitter:description", content: "Adventure traveler, rider and trip captain from Bengaluru creating experiences that people remember for life." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/46da82ce-75fe-4a55-bfb8-9f2a69f8731a" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/46da82ce-75fe-4a55-bfb8-9f2a69f8731a" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
