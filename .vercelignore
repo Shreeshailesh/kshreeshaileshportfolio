@@ -1,0 +1,9 @@
+.git
+.gitignore
+.lovable
+node_modules
+.env
+.env.local
+.env.*.local
+dist
+*.log
