@@ -20,7 +20,8 @@ const expGroup = expGroupAsset.url;
 import galOoty from "@/assets/gal-ooty.jpg";
 import galGokarna from "@/assets/gal-gokarna.jpg";
 import galHostel from "@/assets/gal-hostel.jpg";
-import galMountains from "@/assets/gal-mountains.jpg";
+import galMountainsAsset from "@/assets/gal-mountains-v2.jpg.asset.json";
+const galMountains = galMountainsAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
