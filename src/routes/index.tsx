@@ -7,7 +7,7 @@ import {
 import { useReveal } from "@/hooks/use-reveal";
 import heroAsset from "@/assets/hero-shailesh.png.asset.json";
 const heroImg = heroAsset.url;
-import portraitAsset from "@/assets/portrait-shailesh.jpg.asset.json";
+import portraitAsset from "@/assets/portrait-shailesh-v2.jpg.asset.json";
 const portraitImg = portraitAsset.url;
 import expMotoAsset from "@/assets/exp-motorcycle-shailesh.jpg.asset.json";
 const expMoto = expMotoAsset.url;
