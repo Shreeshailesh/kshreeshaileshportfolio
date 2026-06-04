@@ -13,7 +13,7 @@ import expMotoAsset from "@/assets/exp-motorcycle-shailesh.jpg.asset.json";
 const expMoto = expMotoAsset.url;
 import expAdventureAsset from "@/assets/exp-adventure-shailesh.jpg.asset.json";
 const expAdventure = expAdventureAsset.url;
-import expSoloAsset from "@/assets/exp-solo-shailesh-v3.jpg.asset.json";
+import expSoloAsset from "@/assets/exp-solo-shailesh-v4.jpg.asset.json";
 const expSolo = expSoloAsset.url;
 import expGroupAsset from "@/assets/exp-group-shailesh-v3.jpg.asset.json";
 const expGroup = expGroupAsset.url;
